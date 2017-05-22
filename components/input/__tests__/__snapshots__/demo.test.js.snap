@@ -140,7 +140,6 @@ exports[`renders ./components/input/demo/autosize-textarea.md correctly 1`] = `
   <textarea
     class="ant-input"
     placeholder="Autosize height based on content lines"
-    type="textarea"
   />
   <div
     style="margin:24px 0;"
@@ -148,7 +147,6 @@ exports[`renders ./components/input/demo/autosize-textarea.md correctly 1`] = `
   <textarea
     class="ant-input"
     placeholder="Autosize height with minimum and maximum number of lines"
-    type="textarea"
   />
 </div>
 `;
@@ -700,7 +698,6 @@ exports[`renders ./components/input/demo/textarea.md correctly 1`] = `
 <textarea
   class="ant-input"
   rows="4"
-  type="textarea"
 />
 `;
 

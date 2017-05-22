@@ -29,13 +29,22 @@ Keyboard and mouse can be used for providing or changing data.
 | prefix | The Input with prefix icon. | string\|ReactNode | |
 | suffix | The Input with suffix icon. | string\|ReactNode | |
 | onPressEnter | The callback function that is triggered when pressing Enter key. | function(e) |   |
-| autosize | Height autosize feature, available when type="textarea", can be set to `true|false` or a object `{ minRows: 2, maxRows: 6 }` | boolean\|object | false |
 
 > When `Input` is used in a `Form.Item` context, if the `Form.Item` has the `id` and `options` props defined
 then `value`, `defaultValue`, and `id` props are automatically set.
 
-The rest props fo Input is exactly same as original [input](https://facebook.github.io/react/docs/events.html#supported-events).
+The rest props of Input is exactly same as original [input](https://facebook.github.io/react/docs/events.html#supported-events).
 
+### Input.TextArea
+
+| Property       | Description           | Type     | Default       |
+|----------------|-----------------------|----------|---------------|
+| defaultValue | The initial input content | string |   |
+| value | The input content value | string |   |
+| onPressEnter | The callback function that is triggered when pressing Enter key. | function(e) |   |
+| autosize | Height autosize feature, available when type="textarea", can be set to `true|false` or a object `{ minRows: 2, maxRows: 6 }` | boolean\|object | false |
+
+The rest props of `Input.TextArea` is the same as original [textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea).
 
 #### Input.Search
 
