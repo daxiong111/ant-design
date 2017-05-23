@@ -22,9 +22,9 @@ function showTotal(total) {
 
 ReactDOM.render(
   <div>
-    <Pagination size="small" total={50} />
-    <Pagination size="small" total={50} showSizeChanger showQuickJumper />
-    <Pagination size="small" total={50} showTotal={showTotal} />
+    <Pagination size="small" total={40} />
+    <Pagination size="small" total={40} showSizeChanger showQuickJumper />
+    <Pagination size="small" total={40} showTotal={showTotal} />
   </div>
 , mountNode);
 ````
